@@ -1,6 +1,6 @@
 
 <template>
-    <div class="min-h-screen bg-gray-50">
+    <div class="min-h-screen bg-gray-100">
       <div class="max-w-4xl mx-auto p-6">
         <h1 class="text-center text-4xl font-extrabold text-gray-800 mb-8 hover:scale-105 transition-all duration-300 ease-in-out">
           {{ resturant.name }}
