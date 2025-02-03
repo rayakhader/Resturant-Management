@@ -21,18 +21,21 @@ body{
     width: 200px;
     height: 200px;
 }
-.register, .login, .add{
+.register, .login{
     display: flex;
     flex-direction: column;
     gap: 20px;
+    background-color: white;
+    box-shadow: 0 0 8px gray;
+    padding:20px;
 }
-.register input, .login input, .add input{
+.register input, .login input{
     width: 300px;
     height: 40px;
     border: 1px solid black;
     padding-left: 20px;
 }
-.register button, .login button, .add button{
+.register button, .login button{
     padding:15px ;
     background-color: #0d6efd;
     color: white;

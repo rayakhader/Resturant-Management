@@ -1,16 +1,18 @@
 <template>
-   <div class="container">
-            <img src="../assets/logo.jpg" alt="logo" class="logo">
-            <h1>Login</h1>
+    <div class="min-h-screen bg-gray-100">
+        <div class="container">
+            <img src="../assets/logo.png" alt="logo" class="logo">
             <div class="login">
+                <h1 class="text-3xl mb-6 font-semibold tracking-wide text-center">Login</h1>
                 <input type="email" placeholder="Enter Email" v-model="email">
                 <input type="password" placeholder="Enter Password" v-model="password">
                 <button v-on:click="login">Login</button>
                 <p>
-                    You don't have an account? <router-link to="/sign-up">Sign Up</router-link>
+                    You don't have an account? <router-link to="/sign-up" class="tracking-wide underline font-bold text-blue-500">Sign Up</router-link>
                 </p>
             </div>
         </div>
+    </div>
 </template>
 
 <script>
