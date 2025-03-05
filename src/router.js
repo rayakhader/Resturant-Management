@@ -1,6 +1,6 @@
 import Home from "./components/Home.vue";
 import SignUp from "./components/SignUp.vue";
-import { createRouter, createWebHistory,createWebHashHistory  } from "vue-router";
+import { createRouter, createWebHistory  } from "vue-router";
 import Login from "./components/Login.vue";
 import Add from "./components/Add.vue";
 import Update from "./components/Update.vue";
@@ -41,7 +41,7 @@ const routes = [
 ]
 
 const router = createRouter({
-    history:createWebHashHistory(),
+    history:createWebHistory(),
     routes
 })
 export default router
